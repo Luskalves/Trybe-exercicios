@@ -1,37 +1,23 @@
-.super-mario {
-  position: absolute;
-  width: 200px;
-  z-index: 1;
-}
+@charset "UTF-8";
 
-.goomba {
-  position: absolute;
-  width: 100px;
-  z-index: 2;
-  top: 400px;
-  left: 50px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
 
-.baloon {
-  position: absolute;
-  left: 250px;
-  z-index: 3;
+li:hover {
+
+  background-color: blue;
 
 }
 
-.speach {
-  position: absolute;
-  font-size: 25px;
-  left: 260px;
-  top: 110px;
-  z-index: 4;
+li:active {
+  color: white;
+  font-family: 'Comforter Brush', cursive;
 }
 
-.bowser {
-  position: absolute;
-  width: 200px;
-  margin-left: 300px;
-  top: 270px;
-  left: 230px;
-  z-index: 5;
+
+.align-text {
+  text-align: center;
+}
+
+ul, ol {
+  list-style: none;
 }
