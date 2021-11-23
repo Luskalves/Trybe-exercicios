@@ -1,23 +1,20 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
 
-li:hover {
+.div1:hover{
 
-  background-color: blue;
+  background-color: red;
 
 }
 
-li:active {
-  color: white;
-  font-family: 'Comforter Brush', cursive;
+
+.div2:hover {
+
+  background-color: green;
 }
 
+.div3:hover {
 
-.align-text {
-  text-align: center;
-}
+  
 
-ul, ol {
-  list-style: none;
 }
