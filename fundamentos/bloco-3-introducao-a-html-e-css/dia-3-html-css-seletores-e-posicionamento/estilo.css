@@ -1,20 +1,62 @@
 @charset "UTF-8";
 
 
-.div1:hover{
-
-  background-color: red;
-
+ol li {
+  background-color: yellow;
 }
 
+li {
+  font-size:20px;
+}
 
-.div2:hover {
+li em {
+  font-weight: bold;
+}
 
+.impar {
   background-color: green;
+  text-transform: uppercase;
 }
 
-.div3:hover {
+h1,h3 {
+  color: red;
+}
 
-  
+.italic  {
+  font-size: 40px;
+  border: 1px solid black;
+}
 
+
+.linguagens {
+
+  color: blue;
+
+}
+
+.java-color {
+  background-color: pink;
+}
+
+.stack-over:hover {
+  font-weight: bold;
+  color: orange;
+}
+
+.w3-schools:hover {
+  font-weight: bold;
+  color: green;
+}
+
+.web-docs:hover {
+  font-weight: bold;
+  color: silver;
+}
+.dev-docs:hover {
+  font-weight: bold;
+  color: yellow;
+}
+.trybe:hover {
+  font-weight: bold;
+  color: green;
 }
