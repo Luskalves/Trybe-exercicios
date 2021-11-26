@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*.header {
+    padding: 15px ;
+    display: inline-block;
+    position: fixed;
+}
+
+.title {
+
+}
+
+.menu {
+    top: 10px;
+    padding-left: 80%;
+    
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+} */
+
+a {
+    text-decoration: inherit;
+    color: inherit;   
+}
+
+li {
+    display: inline;
+}
