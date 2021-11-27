@@ -1,11 +1,5 @@
-let value = 10; 
+const peçaXadrez = "Rainha";
 
-if(value > 0){
-    console.log("positive");
-}
-else if(value < 0){
-    console.log("negative");
-}
-else{
-    console.log("zero");
+if (peçaXadrez === "Rainha"){
+    console.log("TODOS - menos o movimento em L do cavalo")
 }
