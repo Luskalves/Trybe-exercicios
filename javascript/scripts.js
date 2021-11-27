@@ -1,20 +1,11 @@
-const porCento = 100;
+const n1 = 3;
+const n2 = 7;
+const n3 = 6;
 
-if(porCento >= 90){
-    console.log("A");
-}
-else if(porCento >= 80){
-    console.log("B");
-}
-else if(porCento >= 70){
-    console.log("C");
-}
-else if(porCento >= 60){
-    console.log("D");
-}
-else if(porCento >= 50){
-    console.log("E");
+if ((n1 % 2) === 0 || (n2 % 2) === 0 || (n3 % 2) === 0){
+    
+    console.log(true);
 }
 else{
-    console.log("F");
+    console.log(false);
 }
