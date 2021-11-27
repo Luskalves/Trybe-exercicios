@@ -1,17 +1,12 @@
-const pessoaCandidata = "aprovada"
+let a = 10;
+let b = 5;
 
-switch(pessoaCandidata){
-    
-    case "aprovada":
-        console.log("Você foi aprovado(a)! :D");
-        break
-    case "lista":
-        console.log("Você esta na lista!");
-        break;
-    case "reprovada":
-        console.log("Você foi reprovada! :(");
-        break;
+soma = a + b;
+subtração = a - b;
+multiplicação = a * b;
+divisão = a / b;
 
-    default:
-        console.log("Não se aplica!");
-}
+console.log(soma);
+console.log(subtração);
+console.log(multiplicação);
+console.log(divisão);
