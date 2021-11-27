@@ -1,16 +1,40 @@
-const valorProduto = 10;
-const valorVenda = 15;
+let salarioBruto = 3000;
+let salarioBase = 0;
+let salarioLiquido = 0;
+let impostoRenda = 0;
+let inss = 0;
 
-let imposto = valorProduto * 0.2;
-let lucro = 0;
-
-for(let i = 1; i <= 1000; i++){
-    let vendas = valorVenda - (valorProduto + imposto);
-    lucro = lucro + vendas;
-    if (lucro < 0 || valorProduto < 0 || imposto < 0){
-        console.log("ERROR!!! - Os valores inseridos são inválidos!");
-        break
-    }
+if(salarioBruto < 1556.94){
+    inss = salarioBruto * 0.08;
+}
+else if(salarioBruto >= 1556.95 && salarioBruto < 2594.92){
+    inss = salarioBruto * 0.09;
+}
+else if(salarioBruto >= 2594.93 && salarioBruto < 5189.82){
+    inss = salarioBruto * 0.11;
+}
+else {
+    inss = 570.88;
 }
 
-console.log(lucro);
+salarioBase = salarioBruto - inss;
+
+if(salarioBase < 1556.94){
+    impostoRenda = 0;
+}
+else if(salarioBase >= 1903.99 && salarioBase <  2826.65){
+    impostoRenda = (salarioBase * 0.075) - 142.8;
+}
+else if(salarioBase >= 2826.66 && salarioBase < 3751.05){
+    impostoRenda = (salarioBase * 0.15) - 354.8;
+}
+else if(salarioBase >= 3751.06 && salarioBase < 4664.68){
+    impostoRenda = (salarioBase * 0.225) - 636.13;
+}
+else {
+    impostoRenda = (salarioBase * 0.275) - 869.36;
+}
+
+salarioLiquido = salarioBase - impostoRenda;
+
+console.log(salarioLiquido)
