@@ -1,4 +1,4 @@
-let value = 10;
+let value = 10; 
 
 if(value > 0){
     console.log("positive");
