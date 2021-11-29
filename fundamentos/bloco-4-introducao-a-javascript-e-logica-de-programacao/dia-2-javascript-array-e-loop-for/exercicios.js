@@ -1,11 +1,7 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let menorValor = Math.max.apply(null, numbers);
+let numeros = [];
 
-for(let i = 0; i < numbers.length; i++){
-
-    if(numbers[i] < menorValor){
-        menorValor = numbers[i];
-    }    
+for(let i = 1; i < 26; i++){
+    numeros.push(i);
 }
 
-console.log("O maior valor é o: "+ menorValor);
+console.log(numeros)
