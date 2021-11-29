@@ -4,4 +4,5 @@ let soma = 0;
 for(let i = 0; i < numbers.length; i++){
     soma += numbers[i];
 }
-console.log("a soma de todos os valora é de: "+soma);
+let media = soma / 10;
+console.log("a media é de: " + media);
