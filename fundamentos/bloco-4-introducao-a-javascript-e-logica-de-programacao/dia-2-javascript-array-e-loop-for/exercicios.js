@@ -6,3 +6,9 @@ for(let i = 0; i < numbers.length; i++){
 }
 let media = soma / 10;
 console.log("a media é de: " + media);
+
+if(media > 20){
+    console.log("O valor é maior que 20");
+}else{
+    console.log("O valor é menor que 20");
+}
