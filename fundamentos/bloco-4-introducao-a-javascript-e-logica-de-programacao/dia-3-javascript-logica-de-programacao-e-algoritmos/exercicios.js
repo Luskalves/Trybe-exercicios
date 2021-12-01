@@ -1,7 +1,6 @@
-let number = 5;
-let word = '*';
-let arrayNumber = [];
+let fatorial = 10;
 
-for(let i = 0; i < number; i++){
-    console.log(word * 5);
+for(let i = 9; i > 0;i--){
+    fatorial = fatorial * i; 
 }
+console.log(fatorial)
