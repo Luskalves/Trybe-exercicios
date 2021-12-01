@@ -13,4 +13,4 @@ let leitor = {
 
 let fullName = leitor['nome'] + " " + leitor['sobrenome'];
 
-console.log("O livro favorito de "+ fullName + " se chama " + leitor.livrosFavoritos[0]['titulo']);
+console.log("O livro favorito de "+ fullName + " se chama " + leitor.livrosFavoritos[1]['titulo']);
