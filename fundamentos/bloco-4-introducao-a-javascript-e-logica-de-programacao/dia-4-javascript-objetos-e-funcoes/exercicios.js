@@ -8,9 +8,15 @@ let leitor = {
       autor: 'Daniela Kopsch',
       editora: 'Tordesilhas',
     },
+    {
+      titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+      autor: 'JK Rowling',
+      editor: 'Rocco',
+    }
   ],
 };
 
 let fullName = leitor['nome'] + " " + leitor['sobrenome'];
 
-console.log("O livro favorito de "+ fullName + " se chama " + leitor.livrosFavoritos[1]['titulo']);
+
+console.log(leitor.nome +" tem "+ leitor.livrosFavoritos.length + " livros favoritos");
