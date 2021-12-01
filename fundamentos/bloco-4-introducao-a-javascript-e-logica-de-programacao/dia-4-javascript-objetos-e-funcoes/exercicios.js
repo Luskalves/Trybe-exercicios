@@ -1,19 +1,16 @@
-let info = [
+let leitor = {
+  nome: 'Julia',
+  sobrenome: 'Pessoa',
+  idade: 21,
+  livrosFavoritos: [
     {
-      personagem: 'Margarida',
-      origem: 'Pato Donald',
-      nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
-  },
-    {
-      personagem: 'Tio patinhas',
-      origem: "Christmas on Bear Mountain, Dell's Four Color Comics #178",
-      nota: 'O último MacPatinhas',
-      recorrente: 'sim',
-    }
-];
+      titulo: 'O Pior Dia de Todos',
+      autor: 'Daniela Kopsch',
+      editora: 'Tordesilhas',
+    },
+  ],
+};
 
-for(let key in info){
+let fullName = leitor['nome'] + " " + leitor['sobrenome'];
 
-  console.log(key, info)
-
-}
+console.log("O livro favorito de "+ fullName + " se chama " + leitor.livrosFavoritos[0]['titulo']);
