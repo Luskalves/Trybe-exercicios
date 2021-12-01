@@ -1,6 +1,3 @@
-let fatorial = 10;
+let word = 'tryber';
 
-for(let i = 9; i > 0;i--){
-    fatorial = fatorial * i; 
-}
-console.log(fatorial)
+console.log(word.split('').reverse().join(''))
