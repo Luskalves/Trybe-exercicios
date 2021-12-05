@@ -1,17 +1,18 @@
-function verificaPalindrome(palavra){
-  
-  let palavraReversa = palavra.split("").reverse().join("");
+function maiorIndex (array){
+  let biggestArray;
 
-  if (palavraReversa === palavra){
-    return true;
-  }else{
-    return false;
+  for(let i = 0; i < array.lenght; i++){
+
+    if(array[i] > array[i + 1]){
+      biggestArray = array[i];
+    }
+    
   }
 
-}
+  return biggestArray;
+};
 
-let palindrome = 'arara';
-let naoPalindrome = 'desenvolvimento'
 
-console.log(verificaPalindrome(palindrome))
-console.log(verificaPalindrome(naoPalindrome))
+let lista = [1,3,2];
+
+console.log(maiorIndex(lista))
