@@ -1,17 +1,3 @@
-const messageDelay = () => Math.floor(Math.random() * 5000);
-
-const getMarsTemperature = () => {
-  const maxTemperature = 58;
-  return Math.floor(Math.random() * maxTemperature);
-};
-
-// crie a função sendMarsTemperature abaixo
-
-const sendMarsTemperature = () => {
-  const actualTemperature = getMarsTemperature();
-  setTimeout(() => {
-    console.log(`Mars temperature is: ${actualTemperature} degree Celcius`);
-  }, messageDelay());
-}
-
-sendMarsTemperature(); // imprime "Mars temperature is: 20 degree Celsius", por exemplo
+const resultado = console.log('LUSKA');
+const mostra = (hmm) => console.log(hmm)
+const teste =  uppercase('luska', mostra);
